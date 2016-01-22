@@ -1,0 +1,4 @@
+﻿     Création de la bibliothèque C:\Users\Melkus\Documents\GitHub\TP1\partageable\Debug\Composant1.lib et de l'objet C:\Users\Melkus\Documents\GitHub\TP1\partageable\Debug\Composant1.exp
+Composant1.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) int __cdecl composant3(int,int)" (__imp_?composant3@@YAHHH@Z) référencé dans la fonction "int __cdecl addition_interne(int,int)" (?addition_interne@@YAHHH@Z)
+Composant1.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) char * __cdecl getComposant3Version(void)" (__imp_?getComposant3Version@@YAPADXZ) référencé dans la fonction "char * __cdecl getComposant1Version(void)" (?getComposant1Version@@YAPADXZ)
+C:\Users\Melkus\Documents\GitHub\TP1\partageable\Debug\Composant1.dll : fatal error LNK1120: 2 externes non résolus
