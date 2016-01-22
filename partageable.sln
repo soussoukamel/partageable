@@ -5,15 +5,22 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "partageable", "partageable\partageable.vcxproj", "{F6B61D36-AC7D-4BA3-B0E1-396B3EEBE9C7}"
 	ProjectSection(ProjectDependencies) = postProject
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537} = {DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}
 		{38791A35-6BDD-42B2-873F-621244FB3426} = {38791A35-6BDD-42B2-873F-621244FB3426}
 		{5001BDBB-2E45-485A-AB91-0C9770A413BC} = {5001BDBB-2E45-485A-AB91-0C9770A413BC}
+		{8D110CE5-328D-45F6-AC6F-0429B40070FD} = {8D110CE5-328D-45F6-AC6F-0429B40070FD}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant1", "Composant1\Composant1.vcxproj", "{5001BDBB-2E45-485A-AB91-0C9770A413BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D110CE5-328D-45F6-AC6F-0429B40070FD} = {8D110CE5-328D-45F6-AC6F-0429B40070FD}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant2", "Composant2\Composant2.vcxproj", "{38791A35-6BDD-42B2-873F-621244FB3426}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant3", "Composant3\Composant3.vcxproj", "{8D110CE5-328D-45F6-AC6F-0429B40070FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant4", "Composant4\Composant4.vcxproj", "{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +56,14 @@ Global
 		{8D110CE5-328D-45F6-AC6F-0429B40070FD}.Release|Win32.Build.0 = Release|Win32
 		{8D110CE5-328D-45F6-AC6F-0429B40070FD}.Release|x64.ActiveCfg = Release|x64
 		{8D110CE5-328D-45F6-AC6F-0429B40070FD}.Release|x64.Build.0 = Release|x64
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Debug|Win32.Build.0 = Debug|Win32
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Debug|x64.ActiveCfg = Debug|x64
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Debug|x64.Build.0 = Debug|x64
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Release|Win32.ActiveCfg = Release|Win32
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Release|Win32.Build.0 = Release|Win32
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Release|x64.ActiveCfg = Release|x64
+		{DDD7D82B-3923-4ED9-9BC7-0C99BA10C537}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
