@@ -1,5 +1,5 @@
 
-#include "../interfaces/Composant3.h"
+#include "Composant3.h"
 #include "Composant3Version.h"
 
 

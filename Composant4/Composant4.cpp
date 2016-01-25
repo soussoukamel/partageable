@@ -1,12 +1,12 @@
 
-#include "../interfaces/Composant4.h"
+#include "Composant4.h"
 #include "Composant4Version.h"
 
 
 int composant1(int p1, int p2)
 {
 	p1 += p2;
-	return p1;
+	return p1 * 10;
 }
 
 char * getComposant1Version()
